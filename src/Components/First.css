@@ -1,0 +1,20 @@
+.first_links{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 10px;
+}
+.first_links li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first_links li a{
+    background-color: wheat;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.first_links li a.active{
+    background-color: rgb(119, 81, 81);
+    color: white;
+}

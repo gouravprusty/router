@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: flex-start;
+}
+.navbar li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar li a{
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 2px solid transparent;
+}
+.navbar li a.active_link{
+    border-bottom: 2px solid black;
+}
